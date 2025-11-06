@@ -1,19 +1,18 @@
 # Core notebooks
 ipykernel
-python-dotenv
+python-dotenv~=1.0
 
-# Ciencia de datos (ML clásico)
-numpy
-pandas
-scikit-learn
-matplotlib
-seaborn
+# Ciencia de datos
+scikit-learn~=1.5
+pandas~=2.2
+matplotlib~=3.8
+seaborn~=0.13
+jupyterlab~=4.2
 
 # MLflow + DagsHub
-mlflow
-dagshub
+mlflow~=2.13
+dagshub~=0.3
 
-# LLMs (elige los que uses)
-google-generativeai      # para Gemini
-openai                   # cliente que usa OpenRouter
-requests                 # para llamar a Ollama REST si lo usas
+# LLMs
+google-generativeai~=0.7
+openai~=1.50
